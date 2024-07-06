@@ -11,6 +11,7 @@
 		7593B85B2C387BC8004EC799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593B85A2C387BC8004EC799 /* ContentView.swift */; };
 		7593B85D2C387BC9004EC799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7593B85C2C387BC9004EC799 /* Assets.xcassets */; };
 		7593B8602C387BC9004EC799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7593B85F2C387BC9004EC799 /* Preview Assets.xcassets */; };
+		75BA16962C39A2F9002FB9D0 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA16952C39A2F9002FB9D0 /* InfoPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7593B85A2C387BC8004EC799 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7593B85C2C387BC9004EC799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7593B85F2C387BC9004EC799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75BA16952C39A2F9002FB9D0 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		7593B8572C387BC8004EC799 /* pinch */ = {
 			isa = PBXGroup;
 			children = (
+				75BA16942C39A2EB002FB9D0 /* Componennt */,
 				75FED3202C3881FC00738FBF /* View */,
 				75FED31F2C3881F400738FBF /* Model */,
 				75FED31E2C3881EE00738FBF /* Data */,
@@ -67,6 +70,14 @@
 				7593B85F2C387BC9004EC799 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75BA16942C39A2EB002FB9D0 /* Componennt */ = {
+			isa = PBXGroup;
+			children = (
+				75BA16952C39A2F9002FB9D0 /* InfoPanelView.swift */,
+			);
+			path = Componennt;
 			sourceTree = "<group>";
 		};
 		75FED31E2C3881EE00738FBF /* Data */ = {
@@ -163,6 +174,7 @@
 			files = (
 				7593B85B2C387BC8004EC799 /* ContentView.swift in Sources */,
 				7593B8592C387BC8004EC799 /* pinchApp.swift in Sources */,
+				75BA16962C39A2F9002FB9D0 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
